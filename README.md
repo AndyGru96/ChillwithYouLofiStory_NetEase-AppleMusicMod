@@ -1,4 +1,4 @@
-# 为游戏*Chill with You: Lo-Fi Story* 嵌入网易云音乐与 Apple Music 播放功能。
+# 为游戏 *Chill with You: Lo-Fi Story* 嵌入网易云音乐与 Apple Music 播放功能。
 
 
 歌单、搜索、播放控制和歌词都以游戏原生风格注入到游戏内的音乐面板里。
@@ -49,7 +49,7 @@
 | 项 | 要求 |
 |---|---|
 | 游戏 | Chill with You: Lo-Fi Story（Steam，Windows） |
-| 加载器 | BepInEx 5 |
+| 加载器 | BepInEx 5 「已内置」|
 | 运行时 | 游戏自带的 Unity Mono，无需额外安装 |
 | 网易云 | 需要你自己的账号，扫码登录 |
 | Apple Music | 需要 Microsoft Store 版 Apple Music 应用正在运行并已登录 |
@@ -89,6 +89,10 @@ Apple Music 的声音由 Apple Music 应用自身发出（FairPlay DRM 限制）
 
 ## 许可
 MIT，见 `LICENSE`。
+
+本包内含 BepInEx 5.4.23.5，原样收录、未作修改。
+BepInEx 以 LGPL-2.1 授权，协议全文见 BepInEx\LICENSE，源码见 https://github.com/BepInEx/BepInEx
+「MIT 仅适用于本插件自身代码，随包分发的 BepInEx 另按 LGPL-2.1」
 
 作者：**MoonFlower**
 ![alt text](./assets/20260802233808_1.jpg)
