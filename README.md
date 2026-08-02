@@ -58,7 +58,7 @@
 
 ## 卸载
 
-删除 `BepInEx\plugins\ChillWithYouMusicBridge` 整个文件夹即可。
+删除 复制的 `winhttp.dll / doorstop_config.ini / BepInEx\` 这些文件即可。
 
 游戏存档不受影响：本插件不读写游戏存档，所有数据都在自己的文件夹内。
 
