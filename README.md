@@ -1,8 +1,8 @@
 # 为游戏 *Chill with You: Lo-Fi Story* 嵌入网易云音乐与 Apple Music 播放功能。
 
 
-嵌入网易云音乐与 Apple Music 播放功能。
-并把游戏自带本地音乐播放功能也纳入同一套播放控制，三个音源互相独立、随时切换。
+嵌入网易云音乐与 Apple Music 播放功能。\
+并把游戏自带本地音乐播放功能也纳入同一套播放控制，三个音源互相独立、随时切换。\
 支持歌单、搜索、播放控制和歌词都以游戏原生风格注入到游戏内的音乐面板里。
 
 聪音也要听音乐喵！
@@ -77,9 +77,9 @@
 
 ## 卸载
 
-删除复制的:
-`BepInEx\`
-`/winhttp.dll / doorstop_config.ini / .doorstop_version / changelog.txt ` 
+删除复制的:\
+`BepInEx\`\
+`/winhttp.dll / doorstop_config.ini / .doorstop_version / changelog.txt ` \
 这些文件即可。
 
 游戏存档不受影响：本插件不读写游戏存档，所有数据都在自己的文件夹内。
@@ -96,7 +96,7 @@
 - 账号凭据只保存在 `config\netease_session.dat`，用 Windows DPAPI 按当前用户加密。
 
 
-本插件使用你自己的账号访问官方接口，不会绕过 VIP、DRM 或区域限制。
+本插件使用你自己的账号访问官方接口，不会绕过 VIP、DRM 或区域限制。\
 Apple Music 的声音由 Apple Music 应用自身发出（FairPlay DRM 限制），不在游戏内解码。
 
 ## 已知限制
@@ -112,9 +112,9 @@ Apple Music 的声音由 Apple Music 应用自身发出（FairPlay DRM 限制）
 ## 许可
 MIT，见 `LICENSE`。
 
-本包内含 BepInEx 5.4.23.5，原样收录、未作修改。
-BepInEx 以 LGPL-2.1 授权，协议全文见 BepInEx\LICENSE，源码见 https://github.com/BepInEx/BepInEx
+本包内含 BepInEx 5.4.23.5，原样收录、未作修改。\
+BepInEx 以 LGPL-2.1 授权，协议全文见 BepInEx\LICENSE，源码见 https://github.com/BepInEx/BepInEx\
 「MIT 仅适用于本插件自身代码，随包分发的 BepInEx 另按 LGPL-2.1」
-
+\
 作者：**MoonFlower**
 ![alt text](./assets/20260802233808_1.jpg)
