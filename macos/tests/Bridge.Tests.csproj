@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <Compile Include="Program.cs;AudioRecoveryTests.cs;../src/MusicBridge/AudioRecoveryPolicy.cs" />
+    <Compile Include="../src/MusicBridge/Mac*.cs;../src/MusicBridge/Am*.cs;../src/MusicBridge/AppleMusicCache.cs;../src/MusicBridge/AtomicFile.cs;../src/MusicBridge/BridgePaths.cs;../src/MusicBridge/SmtcSnapshot.cs;../src/MusicBridge/SessionStore.cs;../src/MusicBridge/*Options.cs;../src/MusicBridge/NeteaseApi.cs;../src/MusicBridge/NeteaseCrypto.cs;../src/MusicBridge/NeteaseRequestCancellation.cs;../src/MusicBridge/TrackInfo.cs;../src/MusicBridge/PlaylistInfo.cs;../src/MusicBridge/PlaylistAssembly.cs;../src/MusicBridge/ArtistNameInfo.cs;../src/MusicBridge/AccountInfo.cs;../src/MusicBridge/AccountCheck.cs;../src/MusicBridge/QrStatus.cs;../src/MusicBridge/NeteaseSearchType.cs;../src/MusicBridge/NeteaseSearchStatus.cs" />
+  </ItemGroup>
+</Project>

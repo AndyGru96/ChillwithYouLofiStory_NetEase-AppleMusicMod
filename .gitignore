@@ -1,0 +1,15 @@
+macos/.downloads/
+macos/dist/
+**/bin/
+**/obj/
+.DS_Store
+macos/test-artifacts/
+macos/probe/.runs/
+.local/
+__pycache__/
+
+# Local development notes and authentication/configuration must stay private.
+/继续开发说明.md
+.env
+.env.*
+!.env.example

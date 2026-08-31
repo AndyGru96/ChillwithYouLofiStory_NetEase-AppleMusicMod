@@ -1,0 +1,2 @@
+# Unified patches must preserve context indentation and removed-line whitespace.
+macos/patches/*.patch -whitespace

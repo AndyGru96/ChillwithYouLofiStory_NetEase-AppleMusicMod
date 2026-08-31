@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>MusicBridge.Probe</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <AutomaticallyUseReferenceAssemblyPackages>false</AutomaticallyUseReferenceAssemblyPackages>
+    <NoStdLib>true</NoStdLib>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <LangVersion>12</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GameManagedDir Condition="'$(GameManagedDir)' == ''">$(HOME)/Library/Application Support/Steam/steamapps/common/Chill with You Lo-Fi Story/Chill With You.app/Contents/Resources/Data/Managed</GameManagedDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(GameManagedDir)/mscorlib.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/System.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/System.Core.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/System.Numerics.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/netstandard.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/UnityEngine.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/UnityEngine.CoreModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/UnityEngine.UI.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/Unity.TextMeshPro.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/Newtonsoft.Json.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/UnityEngine.AudioModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/UnityEngine.UIModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/UnityEngine.UnityWebRequestModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/UnityEngine.TextRenderingModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/UnityEngine.UnityWebRequestAudioModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/UnityEngine.ImageConversionModule.dll"><Private>false</Private></Reference>
+    <Reference Include="$(GameManagedDir)/UnityEngine.UnityWebRequestTextureModule.dll"><Private>false</Private></Reference>
+    <Reference Include="../../Chill with You Lo-Fi Story/BepInEx/core/BepInEx.dll"><Private>false</Private></Reference>
+  <Reference Include="../../Chill with You Lo-Fi Story/BepInEx/core/0Harmony.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
